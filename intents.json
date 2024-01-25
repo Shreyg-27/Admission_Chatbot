@@ -1,0 +1,58 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+      "responses": ["Hello! Welcome to the College Admissions Chatbot. How can I assist you with your admissions queries?"],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+      "responses": ["See you! If you have more questions, feel free to return anytime. Have a great day!"],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": ["You're welcome! If you need further assistance, feel free to ask."],
+      "context": [""]
+    },
+    {
+      "tag": "query",
+      "patterns": ["What can you do?", "What is your purpose?", "How can you help me?"],
+      "responses": ["I am the College Admissions Chatbot. I can provide information about admission procedures, requirements, deadlines, available courses, and more. Ask me anything related to college admissions!"],
+      "context": [""]
+    },
+    {
+      "tag": "admission_procedure",
+      "patterns": ["Tell me about the admission procedure", "How can I apply for admission?", "What is the process of admission?"],
+      "responses": ["The admission procedure involves filling out an online application, submitting required documents, and attending an interview. For detailed steps, visit the college website or contact the admission office."],
+      "context": [""]
+    },
+    {
+      "tag": "admission_requirements",
+      "patterns": ["What are the admission requirements?", "Tell me about the documents needed for admission", "What do I need to submit for admission?"],
+      "responses": ["To apply for admission, you typically need to submit academic transcripts, recommendation letters, a personal statement, and any other documents specified by the college. Check the college website for specific requirements."],
+      "context": [""]
+    },
+    {
+      "tag": "admission_deadline",
+      "patterns": ["When is the admission deadline?", "What is the last date to apply?", "Tell me about admission deadlines"],
+      "responses": ["The admission deadline varies each year. It's recommended to check the college website or contact the admission office for the most up-to-date information on deadlines."],
+      "context": [""]
+    },
+    {
+      "tag": "available_courses",
+      "patterns": ["What courses are available?", "Tell me about the available programs", "List of courses offered"],
+      "responses": ["The college offers a variety of programs including B.tech, BBA, MCA, MBA, B.Comm. You can find detailed information about each program on the college website or by contacting the academic department."],
+      "context": [""]
+    },
+    {
+      "tag": "seats_per_course",
+      "patterns": ["How many seats are available per course?", "Tell me about the number of seats in each program", "Availability of seats"],
+      "responses": ["The number of seats available per course may vary. For specific information on the number of seats in each program, please check the college website or contact the admission office."],
+      "context": [""]
+    }
+  ]
+}
