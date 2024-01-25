@@ -1,6 +1,6 @@
 # Admission Chatbot
 
-## Project 1 Overview
+## Project 2 Overview
 
 This repository contains a basic admission query realted chatbot implemented in Python using the Keras library for neural network modeling and NLTK (Natural Language Toolkit) for natural language processing. The chatbot is 
 designed to respond to user input with appropriate greetings.
